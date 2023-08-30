@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    text-align: center;
+
+    
+}
+body{
+    background-color: rgb(198, 239, 172);
+}
+header{
+    background-color: rgb(255, 255, 243);
+    width:50%;
+    margin-left: 25%;
+    border-radius: 20px;
+}
+
+.lista{
+    background-color: rgb(255, 255, 243);
+    margin-left: 25%;
+    width: 50%;
+    word-wrap: break-word;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+header{
+    margin-top: 10%;
+    padding: 10px 0;
+    color: #000000;
+    justify-content: center; /*centralizar*/
+}
+img{
+    width: 30px;
+    float: left;
+    margin-left: 4%;
+    margin-right:15px ;
+    
+}
+h1{
+    text-align: start;
+    margin: 15px;
+}
+input, button{
+    padding: 8px;
+    border-radius: 15px;    
+    margin: 10px 0 10px 0;    
+}
+button{
+    margin-left: 5px;
+    background-color: rgb(96, 142, 106);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    width: 20%;
+    
+}
+input{
+    border: none;
+    background-color: rgb(223, 250, 216);
+    width: 72%;
+    text-align: start;
+}
+input:focus{
+    outline: none;
+}
+
+button:hover{
+    background-color: rgb(151, 189, 149);
+    transition: all ease .3s;
+}
+li{
+    background-color: rgb(183, 225, 173);
+    border-radius: 20px ;
+    padding: 1px;
+    margin: 10px;
+    word-wrap: break-word;
+    list-style-type: none;
+    text-align: start;
+
+}
+li:hover{
+    cursor: pointer;
+   
+    
+}
+
